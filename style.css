@@ -14,13 +14,35 @@ body {
 	width: 65%;
 }
 
-.img-container {
+.left-column {
+	flex-basis: 0;
 	flex-grow: 1;
 	background-image: url('forest.jpg');
 	background-size: cover;
 }
 
-.form-container {
+.right-column {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex-basis: 0;
 	flex-grow: 1.5;
-	background-color: rgb(243 244 246);
+	background-color: rgb(236 238 241);
+}
+.right-column > * {
+	padding: 35px;
+}
+.form-wrapper {
+	height: 200px;
+	background-color: white;
+}
+form {
+	display: flex;
+	gap: 30px;
+}
+.form-column-left,
+.form-column-right {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
 }

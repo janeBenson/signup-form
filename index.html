@@ -9,8 +9,45 @@
 	<body>
 		<div class="container">
 			<div class="wrapper">
-				<div class="img-container"></div>
-				<div class="form-container"></div>
+				<div class="left-column"></div>
+				<div class="right-column">
+					<div class="form-wrapper">
+						<h3>Create your Bunny account</h3>
+						<form id="sign-up-form">
+							<div class="form-column-left">
+								<div class="first-name">
+									<label for="first-name">First Name</label> <br />
+									<input id="first-name" type="text" required />
+								</div>
+								<div class="email">
+									<label for="email">Email</label> <br />
+									<input type="email" id="email" required />
+								</div>
+								<div class="password">
+									<label for="password">Password</label> <br />
+									<input type="text" id="password" required />
+								</div>
+							</div>
+							<div class="form-column-right">
+								<div class="last-name">
+									<label for="last-name">Last Name</label> <br />
+									<input id="last-name" type="text" required />
+								</div>
+								<div class="phone-number">
+									<label for="phone-number">Phone Number</label> <br />
+									<input type="tel" id="phone-number" />
+								</div>
+								<div class="confirm-password">
+									<label for="confirm-password">Confirm Password</label> <br />
+									<input type="text" id="confirm-password" required />
+								</div>
+							</div>
+						</form>
+					</div>
+					<div class="submit-wrapper">
+						<input type="submit" form="sign-up-form" />
+					</div>
+				</div>
 			</div>
 		</div>
 	</body>
