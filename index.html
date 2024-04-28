@@ -7,57 +7,55 @@
 		<link rel="stylesheet" href="style.css" />
 	</head>
 	<body>
-		<div class="container">
-			<div class="wrapper">
-				<div class="left-column">
-					<div class="logo-wrapper"><img src="rabbit-logo.png" alt="Rabbit Logo" id="rabbit-logo" />Bunny</div>
-					<div class="photo-credits">
-						Photo by <a href="https://unsplash.com/@ahmedmulla?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Ahmed Mulla</a> on
-						<a
-							href="https://unsplash.com/photos/a-white-rabbit-is-sitting-in-the-grass-h--ow8HM3zA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
-							>Unsplash</a
-						>
-					</div>
+		<div class="wrapper">
+			<div class="left-column">
+				<div class="logo-wrapper"><img src="rabbit-logo.png" alt="Rabbit Logo" id="rabbit-logo" />Bunny</div>
+				<div class="photo-credits">
+					Photo by <a href="https://unsplash.com/@ahmedmulla?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Ahmed Mulla</a> on
+					<a
+						href="https://unsplash.com/photos/a-white-rabbit-is-sitting-in-the-grass-h--ow8HM3zA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+						>Unsplash</a
+					>
 				</div>
-				<div class="right-column">
-					<div class="right-column-row-1"></div>
-					<div class="form-wrapper">
-						<h3>Create your Bunny account</h3>
-						<form id="sign-up-form">
-							<div class="form-column-left">
-								<div class="first-name">
-									<label for="first-name">First Name</label> <br />
-									<input id="first-name" type="text" required />
-								</div>
-								<div class="email">
-									<label for="email">Email</label> <br />
-									<input type="email" id="email" required />
-								</div>
-								<div class="password">
-									<label for="password">Password</label> <br />
-									<input type="password" id="password" required />
-								</div>
+			</div>
+			<div class="right-column">
+				<div class="right-column-row-1"></div>
+				<div class="form-wrapper">
+					<h3>Create your Bunny account</h3>
+					<form id="sign-up-form">
+						<div class="form-column-left">
+							<div class="first-name">
+								<label for="first-name">First Name</label> <br />
+								<input id="first-name" type="text" required />
 							</div>
-							<div class="form-column-right">
-								<div class="last-name">
-									<label for="last-name">Last Name</label> <br />
-									<input id="last-name" type="text" required />
-								</div>
-								<div class="phone-number">
-									<label for="phone-number">Phone Number</label> <br />
-									<input type="tel" id="phone-number" />
-								</div>
-								<div class="confirm-password">
-									<label for="confirm-password">Confirm Password</label> <br />
-									<input type="password" id="confirm-password" required />
-								</div>
+							<div class="email">
+								<label for="email">Email</label> <br />
+								<input type="email" id="email" required />
 							</div>
-						</form>
-					</div>
-					<div class="submit-wrapper">
-						<button type="submit" form="sign-up-form" value="Submit">Create Account</button>
-						<div class="log-in-text">Already have an account? <a href="">Log in</a></div>
-					</div>
+							<div class="password">
+								<label for="password">Password</label> <br />
+								<input type="password" id="password" required minlength="8" />
+							</div>
+						</div>
+						<div class="form-column-right">
+							<div class="last-name">
+								<label for="last-name">Last Name</label> <br />
+								<input id="last-name" type="text" required />
+							</div>
+							<div class="phone-number">
+								<label for="phone-number">Phone Number</label> <br />
+								<input type="tel" id="phone-number" />
+							</div>
+							<div class="confirm-password">
+								<label for="confirm-password">Confirm Password</label> <br />
+								<input type="password" id="confirm-password" required minlength="8" />
+							</div>
+						</div>
+					</form>
+				</div>
+				<div class="submit-wrapper">
+					<button type="submit" form="sign-up-form" value="Submit">Create Account</button>
+					<div class="log-in-text">Already have an account? <a href="">Log in</a></div>
 				</div>
 			</div>
 		</div>
