@@ -2,6 +2,7 @@ body {
 	height: 100vh;
 	margin: 0;
 	background-color: rgb(20, 20, 20);
+	font-family: Arial, Helvetica, sans-serif;
 }
 .container {
 	display: flex;
@@ -17,14 +18,36 @@ body {
 .left-column {
 	flex-basis: 0;
 	flex-grow: 1;
+	position: relative;
 	background-image: url('forest.jpg');
 	background-size: cover;
+}
+.logo-wrapper {
+	position: absolute;
+	top: 134px;
+	width: 100%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+	font-size: 35px;
+	background-color: rgb(192 192 192 / 43%);
+}
+#rabbit-logo {
+	width: 45px;
+	height: 45px;
+}
+.photo-credits {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	padding-bottom: 15px;
+	text-align: center;
+	font-size: 13px;
 }
 
 .right-column {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
 	flex-basis: 0;
 	flex-grow: 1.5;
 	background-color: rgb(236 238 241);
@@ -32,17 +55,37 @@ body {
 .right-column > * {
 	padding: 35px;
 }
+.right-column-row-1 {
+	flex-basis: 0;
+	flex-grow: 1;
+}
 .form-wrapper {
 	height: 200px;
 	background-color: white;
 }
+.form-wrapper > h3 {
+	margin-top: 0;
+}
 form {
 	display: flex;
 	gap: 30px;
+}
+.submit-wrapper {
+	flex-basis: 0;
+	flex-grow: 1;
+}
+.submit-wrapper > button {
+	height: 15px;
+	width: 50px;
+	border: none;
+	background-color: #bdbdbd;
 }
 .form-column-left,
 .form-column-right {
 	display: flex;
 	flex-direction: column;
 	gap: 15px;
+}
+.log-in-text {
+	padding-top: 15px;
 }
