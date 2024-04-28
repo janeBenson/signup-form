@@ -85,11 +85,15 @@ form {
 	flex-grow: 1;
 }
 .submit-wrapper > button {
-	height: 15px;
-	width: 50px;
+	height: 35px;
+	width: 165px;
 	border: none;
-	background-color: #bdbdbd;
+	border-radius: 9px;
+	background-color: #7e7e7e;
+	box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 	font-family: inherit;
+	font-weight: bold;
+	color: whitesmoke;
 }
 .form-column-left,
 .form-column-right {
