@@ -83,6 +83,10 @@ form {
 	display: flex;
 	gap: 80px;
 }
+#pw-help-text {
+	display: none;
+	color: red;
+}
 .submit-wrapper {
 	flex-basis: 0;
 	flex-grow: 1;
