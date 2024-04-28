@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&family=Quicksand:wght@300..700&display=swap');
 
 body {
-	height: 110vh;
+	height: 120vh;
 	margin: 0;
 	background-color: rgb(20, 20, 20);
 	font-family: 'Quicksand', sans-serif;
@@ -31,20 +31,20 @@ a {
 }
 .logo-wrapper {
 	position: absolute;
-	top: 113px;
+	top: 97px;
 	width: 100%;
 	padding-top: 15px;
 	padding-bottom: 15px;
 	text-align: center;
 	font-family: 'Sriracha';
-	font-size: 47px;
+	font-size: 65px;
 	font-weight: 400;
 	color: #303030;
 	background-color: rgb(192 192 192 / 43%);
 }
 #rabbit-logo {
-	width: 45px;
-	height: 45px;
+	width: 70px;
+	height: 70px;
 }
 .photo-credits {
 	position: absolute;
@@ -64,36 +64,40 @@ a {
 	background-color: rgb(236 238 241);
 }
 .right-column > * {
-	padding: 25px;
+	padding: 35px;
 }
 .right-column-row-1 {
 	flex-basis: 0;
 	flex-grow: 1;
 }
 .form-wrapper {
-	height: 200px;
+	height: 275px;
 	background-color: white;
 }
 .form-wrapper > h3 {
 	margin-top: 0;
+	margin-bottom: 40px;
+	font-size: 25px;
 }
 form {
 	display: flex;
-	gap: 50px;
+	gap: 80px;
 }
 .submit-wrapper {
 	flex-basis: 0;
 	flex-grow: 1;
+	padding-top: 50px;
 }
 .submit-wrapper > button {
-	height: 35px;
-	width: 165px;
+	height: 48px;
+	width: 236px;
 	border: none;
 	border-radius: 9px;
 	background-color: #7e7e7e;
 	box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 	font-family: inherit;
 	font-weight: bold;
+	font-size: 16px;
 	color: whitesmoke;
 }
 .form-column-left,
@@ -103,8 +107,8 @@ form {
 	gap: 15px;
 }
 input {
-	height: 20px;
-	width: 180px;
+	height: 28px;
+	width: 275px;
 	border: 2px solid #e4e4e4;
 	border-radius: 3px;
 }
@@ -115,5 +119,5 @@ input:focus {
 }
 .log-in-text {
 	padding-top: 28px;
-	font-size: 13px;
+	font-size: 16px;
 }
